@@ -1,6 +1,9 @@
 package main
 
-import s "strings"
+import (
+	"runtime"
+	s "strings"
+)
 import "fmt"
 
 var pn = fmt.Println
@@ -47,4 +50,6 @@ func main() {
 
 	pf("%e\n", 12340000.00)
 	pf("%E\n", 12340000.00)
+
+	pf(runtime.GOOS)
 }

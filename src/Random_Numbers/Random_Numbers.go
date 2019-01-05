@@ -34,4 +34,6 @@ func main() {
 	fmt.Print(r3.Intn(100), ",")
 	fmt.Print(r3.Intn(100))
 	fmt.Println()
+
+	fmt.Println(RandInt(100, 200))
 }
